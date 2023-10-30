@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlisteners.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Read Mail(failed)">
+    <classes>
+      <class name="testclasses.ReadLatestDownloadedFileTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="readFile"/>
+          <include name="ObjectCreation"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testclasses.ReadLatestDownloadedFileTest -->
+    </classes>
+  </test> <!-- Read Mail(failed) -->
+</suite> <!-- Failed suite [Suite] -->
