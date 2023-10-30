@@ -1,0 +1,974 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>179/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 12 11:02:34 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>10421 seconds (10421544 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/canada/manyavar-mohey-clothing-stores-derry-road-mississauga-258198/Home</td>
+<td></td>
+<td>16</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://clothing-store.lee.in/lee-mysuru-clothing-shop-nazarbad-mohalla-mysore-188456/Home</td>
+<td></td>
+<td>24</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://commercial-vehicles.buytrucknbus.tatamotors.com/tata-motors-commercial-vehicle-dealer-cargo-motors-pvt-ltd-truck-repair-shop-okhla-new-delhi-189525/Home</td>
+<td></td>
+<td>409</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.skoda-auto.co.in/skoda-showroom-aryaveer-motors-pvt-ltd-car-dealer-moti-nagar-new-delhi-67712/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://www.reliancedigitalstores.in/reliance-digital-karol-bagh-electronics-retail-and-repair-shop-karol-bagh-new-delhi-208707/Home</td>
+<td></td>
+<td>101</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://restaurantswowchicken.wowmomo.com/wow-chicken-viviana-mall-chicken-restaurants-panchpakhadi-thane-286864/Home</td>
+<td></td>
+<td>25</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://agent.hdfcergo.com/hdfc-ergo-general-insurance-nidhi-gupta-insurance-agency-karol-bagh-new-delhi-272469/Home</td>
+<td></td>
+<td>29</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branches.piramalfinance.com/piramal-capital-housing-finance-limited-dwarka-sector-5-loan-agency-dwarka-sector-5-new-delhi-181236/Home</td>
+<td></td>
+<td>28</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://service.livpure.com/livpure-shrishti-enterprises-water-purification-company-jawahar-nagar-rohtak-253031/Home</td>
+<td></td>
+<td>21</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.lifestylestores.com/lifestyle-stores-viviana-mall-shopping-centre-subhash-nagar-thane-68713/Home</td>
+<td></td>
+<td>16</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://projects.dlf.in/dlf-samavana-kasauli-property-developer-kuthar-solan-243310/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.twamev.com/twamev-mh-ventures-pvt-ltd-clothing-stores-shivaji-nagar-bengaluru-262819/Home</td>
+<td></td>
+<td>17</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.axisbank.com/axis-bank-crowford-market-bank-branch-mumbai-maharashtra-37443/Home</td>
+<td></td>
+<td>33</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store.casio.in/casio-exclusive-store-casio-store-ambience-mall-watch-shop-sector-24-gurugram-121379/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.kfc.com.ph/kfc-kfc-un-square-fast-food-restaurant-ermita-manila-90698/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.tvsmotor.com/iqube/tvs-iqube-binsar-automobiles-electric-motor-shop-shahdara-new-delhi-133166/Home</td>
+<td></td>
+<td>74</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.homecentre.in/home-centre-home-furniture-shop-dwarka-sector-21-new-delhi-244035/Home</td>
+<td></td>
+<td>39</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.thomascook.in/thomas-cook-travel-agency-connaught-place-new-delhi-24590/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://bisstores.in.canon/canon-authorised-dealer-swift-solutions-printing-equipment-and-supplies-delhi-road-hisar-121531/Home</td>
+<td></td>
+<td>15</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://cosmetics-stores.newu.in/newu-cosmetics-store-malviya-nagar-new-delhi-69281/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://servicecenter.samsungdigitalservicecenter.com/samsung-service-center-creative-solutions-mobile-phone-repair-service-hulurisingha-angul-221042/Home</td>
+<td></td>
+<td>20</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.nissan.in/sparsh-nissan-sparsh-nissan-motinagar-nissan-dealer-moti-nagar-new-delhi-77013/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.louisphilippe.com/louis-philippe-formal-menswear-shop-mohali-mohali-273036/Home</td>
+<td></td>
+<td>195</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/uae/manyavar-clothing-stores-damascus-street-dubai-265723/Home</td>
+<td></td>
+<td>63</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store.smctradeonline.com/smc-global-securities-limited-stock-broker-daryaganj-new-delhi-106824/Home</td>
+<td></td>
+<td>33</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.pnbmetlife.com/pnb-metlife-india-insurance-company-limited-karol-bagh-insurance-company-karol-bagh-new-delhi-109017/Home</td>
+<td></td>
+<td>16</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.tupperwareindia.com/tupperware-kalkaji-kitchenware-shop-kalkaji-market-new-delhi-125801/Home</td>
+<td></td>
+<td>16</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://homeshops.tupperwareindia.com/tupperware-home-shops-kitchenware-shop-scc-area-karnal-176452/Home</td>
+<td></td>
+<td>215</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealer.hondacarindia.com/ring-road-honda-sugoi-motors-pvt-ltd-car-dealer-connaught-place-new-delhi-67342/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://studios.pepperfry.com/studio-pepperfry-home-furniture-shop-kirti-nagar-new-delhi-167324/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.blackberrys.com/blackberrys-kamla-nagar-new-delhi-6565802721542144/Home</td>
+<td></td>
+<td>103</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://labs.metropolisindia.com/Tanzania/metropolis-tanzania-diagnostic-centre-arusha-dar-es-salaam-176824/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locations-nearme.carsome.id/carsome-sawah-besar-inspection-center-used-car-dealer-daerah-khusus-ibukota-kec-gambir-253200/Home</td>
+<td></td>
+<td>26</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locator.iocl.com/indianoil-the-metropole-service-station-petrol-pump-connaught-place-new-delhi-102528/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://restaurant.timhowan.com/tim-ho-wan-dim-sum-restaurant-suntec-city-singapore-92429/Home</td>
+<td></td>
+<td>21</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.tatagreenbattery.com/tata-green-batteries-indore-battery-house-ibh-battery-store-somnath-nagar-indore-286267/Home</td>
+<td></td>
+<td>25</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://www.practocareclinic.com/practo-care-surgeries-clinic-karol-bagh-new-delhi-129644/Home</td>
+<td></td>
+<td>370</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.spencers.in/spencers-shopping-centre-sector-28-gurugram-274106/Home</td>
+<td></td>
+<td>25</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locate-us.iifl.com/stock-broker/iifl-securities-stock-broker-connaught-place-new-delhi-81385/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://nearme.bajajfinserv.in/gold-loan/bajaj-finserv-gold-loan-daman-airport-road-loan-agency-airport-road-daman-172879/Home</td>
+<td></td>
+<td>21</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.nitco.in/nitco-gupta-bldg-material-stores-d-tile-shop-wazir-ngr-new-delhi-193410/Home</td>
+<td></td>
+<td>439</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://nearme.gtpl.net/gtpl-hathway-limited-gtpl-media-company-mahmoorganj-varanasi-192400/Home</td>
+<td></td>
+<td>125</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://restaurantschinabelly.wowmomo.com/china-belly-infocity-chinese-restaurants-chandrasekharpur-bhubaneswar-282230/Home</td>
+<td></td>
+<td>115</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://3mcarcare.3mindia.co.in/3m-car-care-salem-car-detailing-services-suramangalam-salem-285286/Home</td>
+<td></td>
+<td>112</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/manyavar-mens-clothing-connaught-place-new-delhi-126754/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.exidecare.com/exide-care-saini-autolines-battery-store-hari-nagar-new-delhi-132963/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store.croma.com/croma-electronics-retail-and-repair-shop-worli-mumbai-258346/Home</td>
+<td></td>
+<td>35</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://tyreshop.ceat.com/sa/saudi-sama-est-ceat-tires-saudi-sama-est-tyre-shop-khodrya-damman-93098/Home</td>
+<td></td>
+<td>32</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branches.muthootfincorp.com/muthoot-fincorp-ltd-daryaganj-loan-agency-daryaganj-new-delhi-117064/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://labs.metropolisindia.com/Zambia/metropolis-zambia-diagnostic-centre-independence-avenue-road-lusaka-176827/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.ucobank.com/uco-bank-atm-ferozeshah-road-delhi-atm-ferozeshah-road-new-delhi-96493/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://pharmacy-nearme.davaindia.com/davaindia-generic-pharmacy-pharmacy-okhla-new-delhi-173511/Home</td>
+<td></td>
+<td>35</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.thesleepcompany.in/the-sleep-company-experience-store-thane-mattress-store-panch-pakhdi-thane-286391/Home</td>
+<td></td>
+<td>59</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://www.stores.aeo.in/american-eagle-exclusive-store-clothing-shop-dlf-phase-3-gurugram-247922/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locations.federalbank.co.in/federal-bank-bangalore-st-mark-s-road-banks-st-marks-road-bengaluru-122455/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://restaurants.kfc.co.in/kfc-connaught-place-restaurants-connaught-place-new-delhi-35035/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store-in.puma.com/puma-store-delhi-cp-2-sports-apparel-connaught-place-new-delhi-136314/Home</td>
+<td></td>
+<td>105</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.hindwareappliances.com/hindware-kitchen-ensemble-chimney-worlds-electronics-company-kirti-nagar-new-delhi-123104/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branches.tatacapital.com/tata-capital-delhi-rajendra-place-financial-institutions-rajendra-place-new-delhi-92227/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branches.orientalinsurance.org.in/the-oriental-insurance-company-ltd-do-21-c-circus-insurance-company-connaught-circle-new-delhi-180225/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.menmoms.in/me-n-moms-baby-stores-pitampura-new-delhi-172413/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.jswsteel.in/jsw-shoppe-krupa-steel-krupa-steel-steel-iron-industry-masjid-bunder-east-mumbai-247955/Home</td>
+<td></td>
+<td>438</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://abfbranches.adityabirlacapital.com/aditya-birla-finance-ltd-loan-agency-barakhamba-road-new-delhi-100538/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.airtel.in/serviceableareas/arunachal-building-telecommunications-service-provider-connaught-place-new-delhi-136956/Home</td>
+<td></td>
+<td>17</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://brandshop.in.panasonic.com/panasonic-ac-world-cool-care-air-conditioning-air-conditioning-store-kamla-nagar-new-delhi-147191/Home</td>
+<td></td>
+<td>23</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://colourideas-dealers-nearme.asianpaints.com/asian-paints-colourideas-murtaza-paints-paint-shop-old-khar-mumbai-118934/Home</td>
+<td></td>
+<td>24</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://labs.metropolisindia.com/Kenya/metropolis-kenya-diagnostic-centre-westlands-westlands-176801/Home</td>
+<td></td>
+<td>20</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.indiashelter.in/india-shelter-finance-corporation-limited-india-shelter-isfc-financial-institutions-college-road-junagadh-180658/Home</td>
+<td></td>
+<td>19</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://samsungsmartplaza.co.in/samsung-smartplaza-mg-ezone-yusuf-sarai-electronics-company-yusuf-sarai-new-delhi-109664/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://dealers.omegaseikimobility.com/osm-surryaanh-organization-llp-two-wheeler-dealer-sector-18-gurugram-286125/Home</td>
+<td></td>
+<td>34</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.maxfashion.in/max-shopping-centre-kamla-nagar-new-delhi-105487/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://eye-hospitals.dragarwal.com/dr-agarwals-eye-hospital-jaipur-eye-care-clinic-c-scheme-jaipur-128697/Home</td>
+<td></td>
+<td>29</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://brandshops.jktyre.com/retread-centers/https://brandshops.jktyre.com/retread-centers/jk-retread-center-classic-tyre-retreads-tyre-shop-wazirpur-industrial-area-new-delhi-105443/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.okinawascooters.com/okinawa-drive-dock-enterprises-two-wheeler-dealer-malkipuram-east-godavari-259673/Home</td>
+<td></td>
+<td>54</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://www.dealer.india.ford.com/harpreet-ford-ford-india-ford-dealer-jahangirpuri-new-delhi-2155/Home</td>
+<td></td>
+<td>26</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locate-us.iifl.com/stock-broker/iifl-securities-delhi-cp-1-ashoka-estate-stock-broker-barakhamba-road-new-delhi-98984/Home</td>
+<td></td>
+<td>8</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.godrejinterio.com/godrej-interio-mahaveer-enterprises-home-furniture-shop-waidhan-waidhan-282485/Home</td>
+<td></td>
+<td>200</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealer-locator.cars.tatamotors.com/tata-motors-anr-automobiles-pvt-ltd-car-dealer-dariya-ganj-new-delhi-77219/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locate.aubank.in/au-small-finance-bank-karol-bagh-delhi-banks-karol-bagh-new-delhi-100055/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.suryodaybank.com/suryoday-small-finance-bank-banks-sector-15-noida-258765/Home</td>
+<td></td>
+<td>249</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.orientbell.com/nepal/orientbell-tile-boutique-p-raj-trade-concern-tile-shop-savagriha-chowk-pokhara-125698/Home</td>
+<td></td>
+<td>850</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://imagesquare.in.canon/canon-image-square-apollo-photographics-cameras-film-sector-19d-chandigarh-94074/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.titan.co.in/titan-world-watch-shop-connaught-place-new-delhi-187106/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://patanjalistores.patanjaliayurved.org/patanjali-arogya-kendra-indian-grocery-store-dashrathpuri-new-delhi-257457/Home</td>
+<td></td>
+<td>17</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://insurance-branch.edelweisstokio.in/edelweiss-tokio-life-insurance-kirti-nagar-life-insurance-kirti-nagar-new-delhi-179043/Home</td>
+<td></td>
+<td>368</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locations-nearme.carsome.my/carsome-setia-spice-experience-center-used-car-dealer-jalan-tun-dr-awang-187363/Home</td>
+<td></td>
+<td>72</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store.apollotyres.com//apollo-tyres-tyre-czar-tyre-shop-begum-pur-bus-stand-new-delhi-247804/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.sotc.in/sotc-for-holidays-sotc-holidays-travel-agency-inner-circle-cp-new-delhi-67000/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://health-insurance-nearme.nivabupa.com/niva-bupa-health-insurance-company-limited-insurance-company-wea-karol-bagh-new-delhi-200869/Home</td>
+<td></td>
+<td>17</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.manappuram.com/manappuram-finance-limited-karolbagh-financial-institutions-karol-bagh-new-delhi-172752/Home</td>
+<td></td>
+<td>33</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://clothing-store.wrangler.in/wrangler-srinagar-clothing-shop-jahangir-chowk-srinagar-193366/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://tyreshop.ceat.com/ceat-shoppe-a-p-traders-a-p-traders-tyre-manufacturer-sector-52a-gurgaon-56318/Home</td>
+<td></td>
+<td>7</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch.bajajallianzlife.com/bajaj-allianz-life-insurance-company-limited-life-insurance-fort-mumbai-123055/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://www.samsungexclusivestores.in/samsung-smartcafe-siyaram-brothers-mobile-phone-shop-connaught-place-new-delhi-78913/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://brandshops.jktyre.com/truck-dealers/jk-truck-wheels-world-wide-auto-craft-tyre-shop-raowali-jalandhar-121212/Home</td>
+<td></td>
+<td>6</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.utpro.in/ut-mart-grocery-stores-bajariya-hathras-178938/Home</td>
+<td></td>
+<td>164</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stockbroker-branch.sharekhan.com/sharekhan-new-delhi-barakhamba-rd-branch-stock-broker-barakhamba-rd-new-delhi-5774/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://centers.aakash.ac.in/aakash-institute-medical-iit-jee-foundation-pusa-road-coaching-center-pusa-road-new-delhi-99408/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.2020eyecare.in/20-20-eyecare-by-dr-agarwals-eye-care-clinic-gowrivakkam-chennai-192022/Home</td>
+<td></td>
+<td>17</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://nearme.bajajfinserv.in/salaried-personal-loan/bajaj-finserv-personal-loan-loan-agency-kalka-ambala-269675/Home</td>
+<td></td>
+<td>832</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://dealers.newhollandtractorindia.com/new-holland-agriculture-maa-jagdamba-tractors-tractor-dealer-dhanipur-aligarh-98566/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.kfc.com.ph/kfc-kfc-un-avenue-fast-food-restaurant-ermita-manila-90697/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://my-branches.aadharhousing.com/aadhar-housing-finance-ltd-financial-institutions-govind-puri-new-delhi-181052/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://battery-inverter-dealers.livguard.com/livguard-regal-electricals-chandni-chowk-battery-manufacturer-chandni-chowk-new-delhi-262462/Home</td>
+<td></td>
+<td>10</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://sports-near-me.playatspada.com/spada-arenas-football-pitch-golf-course-road-sec-43-gurugram-130694/Home</td>
+<td></td>
+<td>39</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.philipslightlounge.com/philips-light-lounge-rays-lighting-shop-kotla-mubarakpur-new-delhi-1860/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://locations.avivaindia.com/aviva-life-insurance-company-india-limited-customerservices-avivaindia-com-insurance-company-hs-road-dibrugarh-252344/Home</td>
+<td></td>
+<td>39</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://nearme.bajajfinserv.in/insta-personal-loan/bajaj-finserv-personal-loan-loan-agency-sector-4b-agra-269564/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://www.shellpartnerworkshops.in/shell-helix-city-auto-zone-oil-change-service-kasunpti-shimla-208409/Home</td>
+<td></td>
+<td>19</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://indiacentres.amplifon.com/amplifon-lajpat-nagar-hearing-aids-lajpat-nagar-new-delhi-253482/Home</td>
+<td></td>
+<td>246</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://plywood-dealers.centuryply.com/century-plyboards-india-limited-kashmir-timber-plywood-co-manufacturer-wazir-nagar-new-delhi-194600/Home</td>
+<td></td>
+<td>63</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.inventstore.in/invent-apple-premium-reseller-mobile-phone-shop-lajpat-nagar-new-delhi-285155/Home</td>
+<td></td>
+<td>15</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://labs.metropolisindia.com/metropolis-healthcare-ltd-diagnostic-centre-girgaon-mumbai-84955/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/ManyavarMohey/manyavar-mohey-clothing-stores-karol-bagh-new-delhi-127153/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://tyreshop.ceat.com/nepal/shikhar-traders-ceat-tires-shikhar-traders-tyre-shop-parsa-bazar-chitwan-92833/Home</td>
+<td></td>
+<td>32</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://clinics.pristyncare.com/pristyn-care-pristyn-care-hauz-khas-ophthalmologists-hauz-khas-new-delhi-98198/Home</td>
+<td></td>
+<td>182</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://tractor-dealers.solis-yanmar.com/solis-yanmar-m-s-automobiles-tractor-dealer-mandi-dabwali-mandi-dabwali-167922/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.orientbell.com/orientbell-tile-boutique-krishna-store-tile-shop-kotla-mubarakpur-new-delhi-94457/Home</td>
+<td></td>
+<td>19</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-atm-connaught-place-atm-connaught-place-new-delhi-6893/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.capitol.com.sg/capitol-optical-raffles-city-optometrists-252-north-bridge-road-singapore-102901/Home</td>
+<td></td>
+<td>25</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.tvsmotor.com/tvs-motors/tvs-my-enterprises-two-wheeler-dealer-darya-ganj-new-delhi-134250/Home</td>
+<td></td>
+<td>22</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stockbroker.motilaloswal.com/motilal-oswal-securities-ltd-stock-broker-tolstoy-road-new-delhi-34383/Home</td>
+<td></td>
+<td>7</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://cakeshops.monginis.net/monginis-cake-shop-panna-foods-karol-bagh-cake-shop-karol-bagh-new-delhi-91936/Home</td>
+<td></td>
+<td>29</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.myaudi.in/audi-delhi-west-car-dealer-shivaji-marg-new-delhi-122038/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://redcliffelabs.com/centre/redcliffe-labs-collection-center-life-care-path-lab-diagnostic-centre-kalkaji-new-delhi-165580/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locate-us.iifl.com/apply-for-gold-loan/iifl-gold-loan-kotla-mubarakpur-loan-agency-kotla-mubarakpur-new-delhi-66812/Home</td>
+<td></td>
+<td>15</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.sonalika.com/sonalika-shardha-nand-tractor-dealer-gurgaon-road-gurugram-162691/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://lab.hitechlabsindia.in/hitech-diagnostic-nellore-diagnostic-centre-railway-line-nellore-191999/Home</td>
+<td></td>
+<td>22</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://brandshops.jktyre.com/jk-tyres-bombay-wheels-tyre-shop-kotla-mubarakpur-new-delhi-84912/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.lapcare.com/lapcare-20-computer-computer-accessories-shop-sector-20-chandigarh-180252/Home</td>
+<td></td>
+<td>21</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branches.sbilife.co.in/sbi-life-insurance-co-ltd-insurance-company-main-road-anakapalle-169748/Home</td>
+<td></td>
+<td>38</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://pixmazone.in.canon/canon-pixma-zone-modcare-printing-equipment-and-supplies-nehru-place-new-delhi-106110/Home</td>
+<td></td>
+<td>7</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers-nearme.ambujacement.com/manglam-builders-ambuja-cement-manglam-builders-cement-supplier-200-feet-road-alwar-146715/Home</td>
+<td></td>
+<td>27</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://solar-near-me.livguardsolar.com/livguard-solar-gr-power-shoppee-solar-energy-company-lajpat-nagar-1-new-delhi-206246/Home</td>
+<td></td>
+<td>26</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.soch.com/soch-soham-shree-lifestyle-women-clothing-store-dwarka-sector-14-new-delhi-201577/Home</td>
+<td></td>
+<td>24</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://insurance-nearme.sbigeneral.in/branch-locator/sbi-general-insurance-company-limited-insurance-company-parliament-street-new-delhi-130298/Home</td>
+<td></td>
+<td>35</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://branches.stfc.in/shriram-transport-finance-company-limited-financial-advisor-industrial-area-chandigarh-166202/Home</td>
+<td></td>
+<td>34</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.cantabilinternational.com/cantabil-kailas-carpet-company-os-mens-clothing-connaught-place-new-delhi-34867/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/ManyavarMohey/uae/manyavar-mohey-clothing-stores-al-wahda-mall-abu-dhabi-272937/Home</td>
+<td></td>
+<td>16</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.myvi.in/vi-store-vodafone-idea-store-cp-telecommunications-service-provider-connaught-place-new-delhi-128884/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locator.iocl.com/indane/indane-sagar-enterprises-gas-agency-doctors-lane-new-delhi-123570/Home</td>
+<td></td>
+<td>24</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.eichertrucksandbuses.com/eicher-company-operated-dealership-durgapur-truck-dealers-durgapur-durgapur-274224/Home</td>
+<td></td>
+<td>71</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://pizza-restoran.dominos.co.id/domino-s-pizza-cideng-pizza-restaurant-kec-gambir-jakarta-pusat-63782/Home</td>
+<td></td>
+<td>12</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://store.thethickshakefactory.com/the-thickshake-factory-hauz-khas-dessert-restaurant-hauz-khas-new-delhi-199314/Home</td>
+<td></td>
+<td>40</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store.ozone-india.com/ozone-overseas-b-s-hardwares-hardware-shop-sector-38-gurugram-285069/Home</td>
+<td></td>
+<td>37</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://locator.bharatpetroleum.com/bharat-petroleum-corporation-ltd-bsr-filling-station-petrol-pump-alwal-road-rangareddy-88259/Home</td>
+<td></td>
+<td>34</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.heromotocorp.com/ess-aay-agencies-india-pvt-ltd-hero-motocorp-two-wheeler-dealer-karol-bagh-new-delhi-22140/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://near-me.iplanet.one/apple-authorised-service-provider-iplanet-care-iplanet-care-kammanahalli-mobile-phone-repair-shop-kammanahalli-bengaluru-258313/Home</td>
+<td></td>
+<td>63</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://broadband-nearme.excitel.com/excitel-broadband-pg-cable-ashram-marg-gole-market-internet-service-provider-rk-ashram-marg-new-delhi-182805/Home</td>
+<td></td>
+<td>26</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.drfixit.co.in/dr-fixit-kewal-paints-kewal-paints-waterproofing-company-gomti-nagar-lucknow-136635/Home</td>
+<td></td>
+<td>8</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.futureworldindia.in/futureworld-apple-authorised-reseller-authorised-service-provider-electronics-retail-and-repair-shop-connaught-place-new-delhi-198541/Home</td>
+<td></td>
+<td>19</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://in-stores.ajmalperfume.com/ajmal-perfumes-exclusive-kiosks-ambience-mall-gurgaon-cosmetics-and-perfumes-supplier-sector-24-gurugram-129689/Home</td>
+<td></td>
+<td>11</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.mebaz.com/mebaz-clothing-stores-waltair-ward-visakhapatnam-126717/Home</td>
+<td></td>
+<td>170</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://labs.metropolisindia.com/Uganda/metropolis-uganda-diagnostic-centre-buganda-road-kampala-180269/Home</td>
+<td></td>
+<td>19</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://restaurants.biryaniblues.com/biryani-blues-restaurants-lajpat-nagar-new-delhi-93144/Home</td>
+<td></td>
+<td>14</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.airtel.in/airtel-express-store-we-solutions-upe-telecommunications-service-provider-cantt-road-lucknow-121270/Home</td>
+<td></td>
+<td>8</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.jswsteel.in/jsw-shoppe-chhaparia-steel-steel-iron-industry-pratap-nagar-nagpur-247953/Home</td>
+<td></td>
+<td>59</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://brandstores.bosch-home.in/bosch-brand-store-pnc-techline-pvt-ltd-appliance-store-bmc-chowk-jalandhar-254530/Home</td>
+<td></td>
+<td>229</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/uk/manyavar-mohey-clothing-stores-the-broadway-southall-261836/Home</td>
+<td></td>
+<td>65</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://stores.burgerking.in/burger-king-fast-food-restaurant-kashmiri-gate-new-delhi-233198/Home</td>
+<td></td>
+<td>40</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://nearme.idfcfirstbank.com/idfc-first-bank-barakhamba-road-branch-banks-barakhamba-road-new-delhi-26706/Home</td>
+<td></td>
+<td>16</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.wildcraft.com/wildcraft-clothing-stores-satellite-ahmedabad-184698/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://restaurants.pizzahut.co.in/pizza-hut-janpath-pizza-restaurant-janpath-new-delhi-1416/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: http://nearme.fiber.gtpl.net/gtpl-broadband-pvt-ltd-gtpl-fiber-internet-service-provider-mahmoorganj-varanasi-192622/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.sfbatteries.in/sf-powerbay-m-s-rohit-traders-battery-store-rao-tula-ram-chowk-mahendragarh-263857/Home</td>
+<td></td>
+<td>13</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://store.livpure.com/livpure-authorised-dealer-harjas-battery-house-water-purification-company-old-appu-ghar-market-rohtak-273675/Home</td>
+<td></td>
+<td>48</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores-near-me.pureitwater.com/pureit-water-purifier-infinity-technology-and-solutions-water-filter-supplier-ashok-nagar-new-delhi-136423/Home</td>
+<td></td>
+<td>8</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://restaurants.wowmomo.com/wow-momo-virar-momo-restaurant-virar-virar-282078/Home</td>
+<td></td>
+<td>93</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://abhfbranches.adityabirlacapital.com/aditya-birla-housing-finance-ltd-loan-agency-jagadhari-sector-17-yamuna-nagar-166097/Home</td>
+<td></td>
+<td>9</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.arrow.nnnow.com/arrow-ar-wear-me-out-clothing-stores-chanmari-aizawl-243270/Home</td>
+<td></td>
+<td>49</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://labs.metropolisindia.com/Ghana/metropilis-ghana-diagnostic-centre-kumasi-kumasi-176797/Home</td>
+<td></td>
+<td>18</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://petrolpump.hpretail.in/hindustan-petroleum-corporation-limited-central-s-s-petrol-pump-connaught-place-new-delhi-97359/Home</td>
+<td></td>
+<td>137</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://dealers.faberindia.com/faber-platinum-studio-r-k-vision-appliance-store-lodhi-colony-new-delhi-167611/Home</td>
+<td></td>
+<td>25</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.manyavar.com/usa/manyavar-mohey-clothing-stores-old-country-road-hicksville-258197/Home</td>
+<td></td>
+<td>54</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.reliancesmartbazaar.com/reliance-smart-superstore-shopping-outlet-vikas-puri-new-delhi-279876/Home</td>
+<td></td>
+<td>44</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.amaron.in/amaron-pitstop-r-k-agencies-r-k-agencies-battery-store-rajiv-gandhi-market-new-delhi-243757/Home</td>
+<td></td>
+<td>430</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://stores.duroflexworld.com/duroflex-mattress-shop-ananthapalli-west-godavari-167123/Home</td>
+<td></td>
+<td>98</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://mobilitystation.jiobp.com/jio-bp-pulse-dwarka-electric-vehicle-charging-station-dwarka-sector-13-new-delhi-164075/Home</td>
+<td></td>
+<td>19</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+<tr>
+<td title='testclasses.GetFontTest.getFontFamily()'><b>getFontFamily</b><br>Test class: testclasses.GetFontTest<br>Parameters: https://branch-atm-locator.bankofmaharashtra.in/bank-of-maharashtra-new-delhi-asaf-ali-road-public-sector-bank-asaf-ali-road-new-delhi-101753/Home</td>
+<td></td>
+<td>17</td>
+<td>testclasses.GetFontTest@18d87d80</td></tr>
+</table><p>
+</body>
+</html>

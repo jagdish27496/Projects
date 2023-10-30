@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="179" passed="179" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T11:02:34 IST" name="Default suite" finished-at="2023-09-12T13:56:16 IST" duration-ms="10421544">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T11:02:34 IST" name="Default test" finished-at="2023-09-12T13:56:16 IST" duration-ms="10421544">
+      <class name="testclasses.GetFontTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:02:32 IST" name="initBrowser" finished-at="2023-09-12T11:02:34 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="ObjectCreation()[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:02:34 IST" name="ObjectCreation" finished-at="2023-09-12T11:02:34 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectCreation -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:02:35 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:03:08 IST" duration-ms="33192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.axisbank.com/axis-bank-crowford-market-bank-branch-mumbai-maharashtra-37443/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:03:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:03:21 IST" duration-ms="12672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.cantabilinternational.com/cantabil-kailas-carpet-company-os-mens-clothing-connaught-place-new-delhi-34867/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:03:21 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:03:29 IST" duration-ms="7696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tyreshop.ceat.com/ceat-shoppe-a-p-traders-a-p-traders-tyre-manufacturer-sector-52a-gurgaon-56318/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:03:29 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:03:41 IST" duration-ms="12411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pizza-restoran.dominos.co.id/domino-s-pizza-cideng-pizza-restaurant-kec-gambir-jakarta-pusat-63782/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:03:41 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:04:08 IST" duration-ms="26801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.dealer.india.ford.com/harpreet-ford-ford-india-ford-dealer-jahangirpuri-new-delhi-2155/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:04:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:04:19 IST" duration-ms="11237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-atm-connaught-place-atm-connaught-place-new-delhi-6893/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:04:19 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:04:30 IST" duration-ms="11346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.heromotocorp.com/ess-aay-agencies-india-pvt-ltd-hero-motocorp-two-wheeler-dealer-karol-bagh-new-delhi-22140/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:04:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:04:47 IST" duration-ms="16585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nearme.idfcfirstbank.com/idfc-first-bank-barakhamba-road-branch-banks-barakhamba-road-new-delhi-26706/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:04:47 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:04:58 IST" duration-ms="10823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restaurants.kfc.co.in/kfc-connaught-place-restaurants-connaught-place-new-delhi-35035/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:04:58 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:05:05 IST" duration-ms="7710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stockbroker.motilaloswal.com/motilal-oswal-securities-ltd-stock-broker-tolstoy-road-new-delhi-34383/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:05:05 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:05:15 IST" duration-ms="9343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.philipslightlounge.com/philips-light-lounge-rays-lighting-shop-kotla-mubarakpur-new-delhi-1860/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:05:15 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:05:24 IST" duration-ms="9655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restaurants.pizzahut.co.in/pizza-hut-janpath-pizza-restaurant-janpath-new-delhi-1416/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:05:24 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:05:35 IST" duration-ms="10110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stockbroker-branch.sharekhan.com/sharekhan-new-delhi-barakhamba-rd-branch-stock-broker-barakhamba-rd-new-delhi-5774/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:05:35 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:05:48 IST" duration-ms="13435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.thomascook.in/thomas-cook-travel-agency-connaught-place-new-delhi-24590/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:05:48 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:05:59 IST" duration-ms="11070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.sotc.in/sotc-for-holidays-sotc-holidays-travel-agency-inner-circle-cp-new-delhi-67000/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:05:59 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:06:08 IST" duration-ms="9141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealer.hondacarindia.com/ring-road-honda-sugoi-motors-pvt-ltd-car-dealer-connaught-place-new-delhi-67342/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:06:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:06:19 IST" duration-ms="10690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.skoda-auto.co.in/skoda-showroom-aryaveer-motors-pvt-ltd-car-dealer-moti-nagar-new-delhi-67712/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:06:19 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:06:29 IST" duration-ms="10579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store.apollotyres.com//apollo-tyres-tyre-czar-tyre-shop-begum-pur-bus-stand-new-delhi-247804/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:06:29 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:06:41 IST" duration-ms="11533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.nissan.in/sparsh-nissan-sparsh-nissan-motinagar-nissan-dealer-moti-nagar-new-delhi-77013/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:06:41 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:09:43 IST" duration-ms="182466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://clinics.pristyncare.com/pristyn-care-pristyn-care-hauz-khas-ophthalmologists-hauz-khas-new-delhi-98198/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:09:43 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:09:53 IST" duration-ms="9843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.samsungexclusivestores.in/samsung-smartcafe-siyaram-brothers-mobile-phone-shop-connaught-place-new-delhi-78913/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:09:53 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:10:08 IST" duration-ms="14398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://labs.metropolisindia.com/metropolis-healthcare-ltd-diagnostic-centre-girgaon-mumbai-84955/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:10:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:10:19 IST" duration-ms="11702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://brandshops.jktyre.com/jk-tyres-bombay-wheels-tyre-shop-kotla-mubarakpur-new-delhi-84912/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:10:19 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:10:29 IST" duration-ms="9465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealer-locator.cars.tatamotors.com/tata-motors-anr-automobiles-pvt-ltd-car-dealer-dariya-ganj-new-delhi-77219/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:10:29 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:11:03 IST" duration-ms="34416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locator.bharatpetroleum.com/bharat-petroleum-corporation-ltd-bsr-filling-station-petrol-pump-alwal-road-rangareddy-88259/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:11:03 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:11:16 IST" duration-ms="12368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.kfc.com.ph/kfc-kfc-un-square-fast-food-restaurant-ermita-manila-90698/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:11:16 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:11:26 IST" duration-ms="10317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branches.tatacapital.com/tata-capital-delhi-rajendra-place-financial-institutions-rajendra-place-new-delhi-92227/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:11:26 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:11:40 IST" duration-ms="14373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://restaurants.biryaniblues.com/biryani-blues-restaurants-lajpat-nagar-new-delhi-93144/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:11:40 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:11:53 IST" duration-ms="12293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.ucobank.com/uco-bank-atm-ferozeshah-road-delhi-atm-ferozeshah-road-new-delhi-96493/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:11:53 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:12:12 IST" duration-ms="19059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.orientbell.com/orientbell-tile-boutique-krishna-store-tile-shop-kotla-mubarakpur-new-delhi-94457/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:12:12 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:12:41 IST" duration-ms="29540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://cakeshops.monginis.net/monginis-cake-shop-panna-foods-karol-bagh-cake-shop-karol-bagh-new-delhi-91936/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:12:41 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:12:54 IST" duration-ms="12715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://dealers.newhollandtractorindia.com/new-holland-agriculture-maa-jagdamba-tractors-tractor-dealer-dhanipur-aligarh-98566/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:12:54 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:13:06 IST" duration-ms="12450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://centers.aakash.ac.in/aakash-institute-medical-iit-jee-foundation-pusa-road-coaching-center-pusa-road-new-delhi-99408/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:13:06 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:13:20 IST" duration-ms="13437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://imagesquare.in.canon/canon-image-square-apollo-photographics-cameras-film-sector-19d-chandigarh-94074/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:13:20 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:13:32 IST" duration-ms="12497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locator.iocl.com/indianoil-the-metropole-service-station-petrol-pump-connaught-place-new-delhi-102528/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:13:32 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:13:46 IST" duration-ms="13486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store.casio.in/casio-exclusive-store-casio-store-ambience-mall-watch-shop-sector-24-gurugram-121379/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:13:46 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:14:01 IST" duration-ms="14972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locate.aubank.in/au-small-finance-bank-karol-bagh-delhi-banks-karol-bagh-new-delhi-100055/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:14:01 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:14:13 IST" duration-ms="12080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://abfbranches.adityabirlacapital.com/aditya-birla-finance-ltd-loan-agency-barakhamba-road-new-delhi-100538/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:14:13 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:14:46 IST" duration-ms="33492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store.smctradeonline.com/smc-global-securities-limited-stock-broker-daryaganj-new-delhi-106824/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:14:46 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:15:04 IST" duration-ms="17441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch-atm-locator.bankofmaharashtra.in/bank-of-maharashtra-new-delhi-asaf-ali-road-public-sector-bank-asaf-ali-road-new-delhi-101753/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:15:04 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:15:25 IST" duration-ms="21136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://restaurant.timhowan.com/tim-ho-wan-dim-sum-restaurant-suntec-city-singapore-92429/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:15:25 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:15:58 IST" duration-ms="32773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tyreshop.ceat.com/nepal/shikhar-traders-ceat-tires-shikhar-traders-tyre-shop-parsa-bazar-chitwan-92833/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:15:58 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:16:30 IST" duration-ms="32692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tyreshop.ceat.com/sa/saudi-sama-est-ceat-tires-saudi-sama-est-tyre-shop-khodrya-damman-93098/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:16:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:16:41 IST" duration-ms="10600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://samsungsmartplaza.co.in/samsung-smartplaza-mg-ezone-yusuf-sarai-electronics-company-yusuf-sarai-new-delhi-109664/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:16:41 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:17:00 IST" duration-ms="18705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.maxfashion.in/max-shopping-centre-kamla-nagar-new-delhi-105487/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:17:00 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:17:15 IST" duration-ms="14904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branches.muthootfincorp.com/muthoot-fincorp-ltd-daryaganj-loan-agency-daryaganj-new-delhi-117064/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:17:15 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:17:24 IST" duration-ms="8886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.airtel.in/airtel-express-store-we-solutions-upe-telecommunications-service-provider-cantt-road-lucknow-121270/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:17:24 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:17:40 IST" duration-ms="16244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.pnbmetlife.com/pnb-metlife-india-insurance-company-limited-karol-bagh-insurance-company-karol-bagh-new-delhi-109017/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:17:40 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:18:06 IST" duration-ms="25957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.capitol.com.sg/capitol-optical-raffles-city-optometrists-252-north-bridge-road-singapore-102901/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:18:06 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:18:22 IST" duration-ms="15869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bisstores.in.canon/canon-authorised-dealer-swift-solutions-printing-equipment-and-supplies-delhi-road-hisar-121531/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:18:22 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:18:35 IST" duration-ms="13230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.bajajallianzlife.com/bajaj-allianz-life-insurance-company-limited-life-insurance-fort-mumbai-123055/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:18:35 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:18:47 IST" duration-ms="12551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://cosmetics-stores.newu.in/newu-cosmetics-store-malviya-nagar-new-delhi-69281/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:18:47 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:19:00 IST" duration-ms="12678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.myaudi.in/audi-delhi-west-car-dealer-shivaji-marg-new-delhi-122038/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:19:00 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:19:13 IST" duration-ms="12479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locations.federalbank.co.in/federal-bank-bangalore-st-mark-s-road-banks-st-marks-road-bengaluru-122455/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:19:13 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:19:37 IST" duration-ms="24655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locator.iocl.com/indane/indane-sagar-enterprises-gas-agency-doctors-lane-new-delhi-123570/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:19:37 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:21:54 IST" duration-ms="137198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://petrolpump.hpretail.in/hindustan-petroleum-corporation-limited-central-s-s-petrol-pump-connaught-place-new-delhi-97359/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:21:54 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:22:13 IST" duration-ms="18447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.hindwareappliances.com/hindware-kitchen-ensemble-chimney-worlds-electronics-company-kirti-nagar-new-delhi-123104/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:22:13 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:22:27 IST" duration-ms="14006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/manyavar-mens-clothing-connaught-place-new-delhi-126754/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:22:27 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:22:36 IST" duration-ms="9588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/ManyavarMohey/manyavar-mohey-clothing-stores-karol-bagh-new-delhi-127153/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:22:36 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:22:53 IST" duration-ms="16765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.tupperwareindia.com/tupperware-kalkaji-kitchenware-shop-kalkaji-market-new-delhi-125801/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:22:53 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:23:08 IST" duration-ms="14797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.myvi.in/vi-store-vodafone-idea-store-cp-telecommunications-service-provider-connaught-place-new-delhi-128884/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:23:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:23:38 IST" duration-ms="29924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://eye-hospitals.dragarwal.com/dr-agarwals-eye-hospital-jaipur-eye-care-clinic-c-scheme-jaipur-128697/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:23:38 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:24:14 IST" duration-ms="35570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insurance-nearme.sbigeneral.in/branch-locator/sbi-general-insurance-company-limited-insurance-company-parliament-street-new-delhi-130298/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:24:14 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:24:25 IST" duration-ms="11219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://in-stores.ajmalperfume.com/ajmal-perfumes-exclusive-kiosks-ambience-mall-gurgaon-cosmetics-and-perfumes-supplier-sector-24-gurugram-129689/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:24:25 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:25:04 IST" duration-ms="39544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sports-near-me.playatspada.com/spada-arenas-football-pitch-golf-course-road-sec-43-gurugram-130694/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:25:04 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:25:13 IST" duration-ms="8308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores-near-me.pureitwater.com/pureit-water-purifier-infinity-technology-and-solutions-water-filter-supplier-ashok-nagar-new-delhi-136423/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:25:13 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:26:27 IST" duration-ms="74538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.tvsmotor.com/iqube/tvs-iqube-binsar-automobiles-electric-motor-shop-shahdara-new-delhi-133166/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:26:27 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:26:49 IST" duration-ms="22194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.tvsmotor.com/tvs-motors/tvs-my-enterprises-two-wheeler-dealer-darya-ganj-new-delhi-134250/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:26:49 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:27:07 IST" duration-ms="17884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.airtel.in/serviceableareas/arunachal-building-telecommunications-service-provider-connaught-place-new-delhi-136956/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:27:07 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:27:19 IST" duration-ms="11816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.exidecare.com/exide-care-saini-autolines-battery-store-hari-nagar-new-delhi-132963/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:27:19 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:27:27 IST" duration-ms="7981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pixmazone.in.canon/canon-pixma-zone-modcare-printing-equipment-and-supplies-nehru-place-new-delhi-106110/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:27:27 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:27:37 IST" duration-ms="9945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://abhfbranches.adityabirlacapital.com/aditya-birla-housing-finance-ltd-loan-agency-jagadhari-sector-17-yamuna-nagar-166097/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:27:37 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:29:23 IST" duration-ms="105703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store-in.puma.com/puma-store-delhi-cp-2-sports-apparel-connaught-place-new-delhi-136314/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:29:23 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:29:32 IST" duration-ms="8983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.drfixit.co.in/dr-fixit-kewal-paints-kewal-paints-waterproofing-company-gomti-nagar-lucknow-136635/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:29:32 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:29:43 IST" duration-ms="11117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.sonalika.com/sonalika-shardha-nand-tractor-dealer-gurgaon-road-gurugram-162691/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:29:43 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:30:11 IST" duration-ms="27878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers-nearme.ambujacement.com/manglam-builders-ambuja-cement-manglam-builders-cement-supplier-200-feet-road-alwar-146715/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:30:11 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:30:30 IST" duration-ms="19798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://mobilitystation.jiobp.com/jio-bp-pulse-dwarka-electric-vehicle-charging-station-dwarka-sector-13-new-delhi-164075/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:30:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:30:54 IST" duration-ms="23720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://brandshop.in.panasonic.com/panasonic-ac-world-cool-care-air-conditioning-air-conditioning-store-kamla-nagar-new-delhi-147191/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:30:54 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:31:08 IST" duration-ms="13757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://studios.pepperfry.com/studio-pepperfry-home-furniture-shop-kirti-nagar-new-delhi-167324/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:31:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:31:34 IST" duration-ms="25605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.faberindia.com/faber-platinum-studio-r-k-vision-appliance-store-lodhi-colony-new-delhi-167611/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:31:34 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:31:48 IST" duration-ms="14022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://redcliffelabs.com/centre/redcliffe-labs-collection-center-life-care-path-lab-diagnostic-centre-kalkaji-new-delhi-165580/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:31:48 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:32:22 IST" duration-ms="34429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://branches.stfc.in/shriram-transport-finance-company-limited-financial-advisor-industrial-area-chandigarh-166202/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:32:22 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:32:38 IST" duration-ms="15679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locate-us.iifl.com/apply-for-gold-loan/iifl-gold-loan-kotla-mubarakpur-loan-agency-kotla-mubarakpur-new-delhi-66812/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:32:38 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:32:51 IST" duration-ms="13540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locate-us.iifl.com/stock-broker/iifl-securities-stock-broker-connaught-place-new-delhi-81385/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:32:51 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:33:00 IST" duration-ms="8633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locate-us.iifl.com/stock-broker/iifl-securities-delhi-cp-1-ashoka-estate-stock-broker-barakhamba-road-new-delhi-98984/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:33:00 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:33:10 IST" duration-ms="10389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://brandshops.jktyre.com/retread-centers/https://brandshops.jktyre.com/retread-centers/jk-retread-center-classic-tyre-retreads-tyre-shop-wazirpur-industrial-area-new-delhi-105443/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:33:10 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:33:17 IST" duration-ms="6679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://brandshops.jktyre.com/truck-dealers/jk-truck-wheels-world-wide-auto-craft-tyre-shop-raowali-jalandhar-121212/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:33:17 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:33:33 IST" duration-ms="16103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.lifestylestores.com/lifestyle-stores-viviana-mall-shopping-centre-subhash-nagar-thane-68713/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:33:33 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:33:44 IST" duration-ms="11263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.kfc.com.ph/kfc-kfc-un-avenue-fast-food-restaurant-ermita-manila-90697/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:33:44 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:47:54 IST" duration-ms="850042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.orientbell.com/nepal/orientbell-tile-boutique-p-raj-trade-concern-tile-shop-savagriha-chowk-pokhara-125698/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:47:54 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:54:05 IST" duration-ms="370842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.practocareclinic.com/practo-care-surgeries-clinic-karol-bagh-new-delhi-129644/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:54:05 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:54:18 IST" duration-ms="12484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tractor-dealers.solis-yanmar.com/solis-yanmar-m-s-automobiles-tractor-dealer-mandi-dabwali-mandi-dabwali-167922/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:54:18 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:55:56 IST" duration-ms="98181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.duroflexworld.com/duroflex-mattress-shop-ananthapalli-west-godavari-167123/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:55:56 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:56:20 IST" duration-ms="24669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://colourideas-dealers-nearme.asianpaints.com/asian-paints-colourideas-murtaza-paints-paint-shop-old-khar-mumbai-118934/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:56:21 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:56:56 IST" duration-ms="35280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://pharmacy-nearme.davaindia.com/davaindia-generic-pharmacy-pharmacy-okhla-new-delhi-173511/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:56:56 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T11:57:08 IST" duration-ms="12374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.menmoms.in/me-n-moms-baby-stores-pitampura-new-delhi-172413/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T11:57:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:03:17 IST" duration-ms="368542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://insurance-branch.edelweisstokio.in/edelweiss-tokio-life-insurance-kirti-nagar-life-insurance-kirti-nagar-new-delhi-179043/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:03:17 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:06:52 IST" duration-ms="215031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://homeshops.tupperwareindia.com/tupperware-home-shops-kitchenware-shop-scc-area-karnal-176452/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:06:52 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:07:25 IST" duration-ms="33453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.manappuram.com/manappuram-finance-limited-karolbagh-financial-institutions-karol-bagh-new-delhi-172752/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:07:25 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:07:47 IST" duration-ms="21426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.lapcare.com/lapcare-20-computer-computer-accessories-shop-sector-20-chandigarh-180252/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:07:47 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:08:00 IST" duration-ms="13735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://labs.metropolisindia.com/Zambia/metropolis-zambia-diagnostic-centre-independence-avenue-road-lusaka-176827/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:08:00 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:08:12 IST" duration-ms="11662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://labs.metropolisindia.com/Tanzania/metropolis-tanzania-diagnostic-centre-arusha-dar-es-salaam-176824/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:08:12 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:08:30 IST" duration-ms="18040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://labs.metropolisindia.com/Ghana/metropilis-ghana-diagnostic-centre-kumasi-kumasi-176797/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:08:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:08:51 IST" duration-ms="20582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://labs.metropolisindia.com/Kenya/metropolis-kenya-diagnostic-centre-westlands-westlands-176801/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:08:51 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:09:10 IST" duration-ms="19183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://labs.metropolisindia.com/Uganda/metropolis-uganda-diagnostic-centre-buganda-road-kampala-180269/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:09:10 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:09:37 IST" duration-ms="26839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://broadband-nearme.excitel.com/excitel-broadband-pg-cable-ashram-marg-gole-market-internet-service-provider-rk-ashram-marg-new-delhi-182805/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:09:37 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:10:05 IST" duration-ms="28074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branches.piramalfinance.com/piramal-capital-housing-finance-limited-dwarka-sector-5-loan-agency-dwarka-sector-5-new-delhi-181236/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:10:05 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:10:23 IST" duration-ms="18417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branches.orientalinsurance.org.in/the-oriental-insurance-company-ltd-do-21-c-circus-insurance-company-connaught-circle-new-delhi-180225/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:10:23 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:10:36 IST" duration-ms="13150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://my-branches.aadharhousing.com/aadhar-housing-finance-ltd-financial-institutions-govind-puri-new-delhi-181052/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:10:36 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:11:15 IST" duration-ms="38182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branches.sbilife.co.in/sbi-life-insurance-co-ltd-insurance-company-main-road-anakapalle-169748/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:11:15 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:11:33 IST" duration-ms="18142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.wildcraft.com/wildcraft-clothing-stores-satellite-ahmedabad-184698/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:11:33 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:11:52 IST" duration-ms="19146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.indiashelter.in/india-shelter-finance-corporation-limited-india-shelter-isfc-financial-institutions-college-road-junagadh-180658/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:11:52 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:12:10 IST" duration-ms="18212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.titan.co.in/titan-world-watch-shop-connaught-place-new-delhi-187106/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:12:10 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:12:34 IST" duration-ms="24400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://clothing-store.lee.in/lee-mysuru-clothing-shop-nazarbad-mohalla-mysore-188456/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:12:34 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:19:24 IST" duration-ms="409133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://commercial-vehicles.buytrucknbus.tatamotors.com/tata-motors-commercial-vehicle-dealer-cargo-motors-pvt-ltd-truck-repair-shop-okhla-new-delhi-189525/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:19:24 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:19:46 IST" duration-ms="22748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://lab.hitechlabsindia.in/hitech-diagnostic-nellore-diagnostic-centre-railway-line-nellore-191999/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:19:46 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:20:04 IST" duration-ms="17835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.2020eyecare.in/20-20-eyecare-by-dr-agarwals-eye-care-clinic-gowrivakkam-chennai-192022/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:20:04 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:20:23 IST" duration-ms="18895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://clothing-store.wrangler.in/wrangler-srinagar-clothing-shop-jahangir-chowk-srinagar-193366/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:20:23 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:27:42 IST" duration-ms="439273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.nitco.in/nitco-gupta-bldg-material-stores-d-tile-shop-wazir-ngr-new-delhi-193410/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:27:42 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:29:48 IST" duration-ms="125267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nearme.gtpl.net/gtpl-hathway-limited-gtpl-media-company-mahmoorganj-varanasi-192400/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:29:48 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:30:51 IST" duration-ms="63801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://plywood-dealers.centuryply.com/century-plyboards-india-limited-kashmir-timber-plywood-co-manufacturer-wazir-nagar-new-delhi-194600/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:30:51 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:31:11 IST" duration-ms="19949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.futureworldindia.in/futureworld-apple-authorised-reseller-authorised-service-provider-electronics-retail-and-repair-shop-connaught-place-new-delhi-198541/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:31:11 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:31:25 IST" duration-ms="13747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://nearme.fiber.gtpl.net/gtpl-broadband-pvt-ltd-gtpl-fiber-internet-service-provider-mahmoorganj-varanasi-192622/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:31:25 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:32:37 IST" duration-ms="72174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locations-nearme.carsome.my/carsome-setia-spice-experience-center-used-car-dealer-jalan-tun-dr-awang-187363/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:32:37 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:33:17 IST" duration-ms="40224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://store.thethickshakefactory.com/the-thickshake-factory-hauz-khas-dessert-restaurant-hauz-khas-new-delhi-199314/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:33:17 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:33:42 IST" duration-ms="24367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.soch.com/soch-soham-shree-lifestyle-women-clothing-store-dwarka-sector-14-new-delhi-201577/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:33:42 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:34:02 IST" duration-ms="19664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.shellpartnerworkshops.in/shell-helix-city-auto-zone-oil-change-service-kasunpti-shimla-208409/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:34:02 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:35:43 IST" duration-ms="101530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.reliancedigitalstores.in/reliance-digital-karol-bagh-electronics-retail-and-repair-shop-karol-bagh-new-delhi-208707/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:35:43 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:36:04 IST" duration-ms="20531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://servicecenter.samsungdigitalservicecenter.com/samsung-service-center-creative-solutions-mobile-phone-repair-service-hulurisingha-angul-221042/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:36:04 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:36:30 IST" duration-ms="26619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://solar-near-me.livguardsolar.com/livguard-solar-gr-power-shoppee-solar-energy-company-lajpat-nagar-1-new-delhi-206246/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:36:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:37:30 IST" duration-ms="59899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.jswsteel.in/jsw-shoppe-chhaparia-steel-steel-iron-industry-pratap-nagar-nagpur-247953/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:37:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:40:21 IST" duration-ms="170916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.mebaz.com/mebaz-clothing-stores-waltair-ward-visakhapatnam-126717/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:40:21 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:40:32 IST" duration-ms="11084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://projects.dlf.in/dlf-samavana-kasauli-property-developer-kuthar-solan-243310/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:40:32 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:41:12 IST" duration-ms="40256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.burgerking.in/burger-king-fast-food-restaurant-kashmiri-gate-new-delhi-233198/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:41:12 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:42:56 IST" duration-ms="103564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.blackberrys.com/blackberrys-kamla-nagar-new-delhi-6565802721542144/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:42:56 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:43:35 IST" duration-ms="39123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://locations.avivaindia.com/aviva-life-insurance-company-india-limited-customerservices-avivaindia-com-insurance-company-hs-road-dibrugarh-252344/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:43:35 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:43:56 IST" duration-ms="21173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://service.livpure.com/livpure-shrishti-enterprises-water-purification-company-jawahar-nagar-rohtak-253031/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:43:56 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:44:23 IST" duration-ms="26979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://locations-nearme.carsome.id/carsome-sawah-besar-inspection-center-used-car-dealer-daerah-khusus-ibukota-kec-gambir-253200/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:44:23 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:44:41 IST" duration-ms="17416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://patanjalistores.patanjaliayurved.org/patanjali-arogya-kendra-indian-grocery-store-dashrathpuri-new-delhi-257457/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:44:41 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:44:54 IST" duration-ms="13448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.stores.aeo.in/american-eagle-exclusive-store-clothing-shop-dlf-phase-3-gurugram-247922/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:44:54 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:45:29 IST" duration-ms="35067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store.croma.com/croma-electronics-retail-and-repair-shop-worli-mumbai-258346/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:45:29 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:46:24 IST" duration-ms="54704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.okinawascooters.com/okinawa-drive-dock-enterprises-two-wheeler-dealer-malkipuram-east-godavari-259673/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:46:24 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:46:34 IST" duration-ms="10571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://battery-inverter-dealers.livguard.com/livguard-regal-electricals-chandni-chowk-battery-manufacturer-chandni-chowk-new-delhi-262462/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:46:34 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:46:52 IST" duration-ms="17492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://health-insurance-nearme.nivabupa.com/niva-bupa-health-insurance-company-limited-insurance-company-wea-karol-bagh-new-delhi-200869/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:46:52 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:47:31 IST" duration-ms="39381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.homecentre.in/home-centre-home-furniture-shop-dwarka-sector-21-new-delhi-244035/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:47:31 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T12:54:42 IST" duration-ms="430773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.amaron.in/amaron-pitstop-r-k-agencies-r-k-agencies-battery-store-rajiv-gandhi-market-new-delhi-243757/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T12:54:42 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:02:00 IST" duration-ms="438238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.jswsteel.in/jsw-shoppe-krupa-steel-krupa-steel-steel-iron-industry-masjid-bunder-east-mumbai-247955/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:02:00 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:06:07 IST" duration-ms="246916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://indiacentres.amplifon.com/amplifon-lajpat-nagar-hearing-aids-lajpat-nagar-new-delhi-253482/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:06:07 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:09:57 IST" duration-ms="229270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://brandstores.bosch-home.in/bosch-brand-store-pnc-techline-pvt-ltd-appliance-store-bmc-chowk-jalandhar-254530/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:09:57 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:10:13 IST" duration-ms="16637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/canada/manyavar-mohey-clothing-stores-derry-road-mississauga-258198/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:10:13 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:11:08 IST" duration-ms="54970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/usa/manyavar-mohey-clothing-stores-old-country-road-hicksville-258197/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:11:08 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:12:14 IST" duration-ms="65816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/uk/manyavar-mohey-clothing-stores-the-broadway-southall-261836/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:12:14 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:13:17 IST" duration-ms="63172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/uae/manyavar-clothing-stores-damascus-street-dubai-265723/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:13:17 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:14:21 IST" duration-ms="63653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://near-me.iplanet.one/apple-authorised-service-provider-iplanet-care-iplanet-care-kammanahalli-mobile-phone-repair-shop-kammanahalli-bengaluru-258313/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:14:21 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:18:30 IST" duration-ms="249217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://branch.suryodaybank.com/suryoday-small-finance-bank-banks-sector-15-noida-258765/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:18:30 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:18:47 IST" duration-ms="17214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://stores.twamev.com/twamev-mh-ventures-pvt-ltd-clothing-stores-shivaji-nagar-bengaluru-262819/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:18:47 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:19:01 IST" duration-ms="13949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.sfbatteries.in/sf-powerbay-m-s-rohit-traders-battery-store-rao-tula-ram-chowk-mahendragarh-263857/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:19:01 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:19:16 IST" duration-ms="14638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nearme.bajajfinserv.in/insta-personal-loan/bajaj-finserv-personal-loan-loan-agency-sector-4b-agra-269564/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:19:16 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:19:41 IST" duration-ms="25617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.spencers.in/spencers-shopping-centre-sector-28-gurugram-274106/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:19:41 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:33:34 IST" duration-ms="832290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nearme.bajajfinserv.in/salaried-personal-loan/bajaj-finserv-personal-loan-loan-agency-kalka-ambala-269675/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:33:34 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:34:03 IST" duration-ms="29772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://agent.hdfcergo.com/hdfc-ergo-general-insurance-nidhi-gupta-insurance-agency-karol-bagh-new-delhi-272469/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:34:03 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:34:20 IST" duration-ms="16780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.manyavar.com/ManyavarMohey/uae/manyavar-mohey-clothing-stores-al-wahda-mall-abu-dhabi-272937/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:34:20 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:35:09 IST" duration-ms="48638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store.livpure.com/livpure-authorised-dealer-harjas-battery-house-water-purification-company-old-appu-ghar-market-rohtak-273675/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:35:09 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:35:44 IST" duration-ms="34831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://dealers.omegaseikimobility.com/osm-surryaanh-organization-llp-two-wheeler-dealer-sector-18-gurugram-286125/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:35:44 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:36:28 IST" duration-ms="44465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.reliancesmartbazaar.com/reliance-smart-superstore-shopping-outlet-vikas-puri-new-delhi-279876/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:36:28 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:37:28 IST" duration-ms="59966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.thesleepcompany.in/the-sleep-company-experience-store-thane-mattress-store-panch-pakhdi-thane-286391/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:37:28 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:39:21 IST" duration-ms="112592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://3mcarcare.3mindia.co.in/3m-car-care-salem-car-detailing-services-suramangalam-salem-285286/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:39:21 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:39:46 IST" duration-ms="25278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.tatagreenbattery.com/tata-green-batteries-indore-battery-house-ibh-battery-store-somnath-nagar-indore-286267/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:39:46 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:40:11 IST" duration-ms="25053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restaurantswowchicken.wowmomo.com/wow-chicken-viviana-mall-chicken-restaurants-panchpakhadi-thane-286864/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:40:11 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:42:07 IST" duration-ms="115530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restaurantschinabelly.wowmomo.com/china-belly-infocity-chinese-restaurants-chandrasekharpur-bhubaneswar-282230/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:42:07 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:43:40 IST" duration-ms="93052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restaurants.wowmomo.com/wow-momo-virar-momo-restaurant-virar-virar-282078/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:43:40 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:46:24 IST" duration-ms="164387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.utpro.in/ut-mart-grocery-stores-bajariya-hathras-178938/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:46:24 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:47:13 IST" duration-ms="49028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.arrow.nnnow.com/arrow-ar-wear-me-out-clothing-stores-chanmari-aizawl-243270/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:47:13 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:50:28 IST" duration-ms="195164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.louisphilippe.com/louis-philippe-formal-menswear-shop-mohali-mohali-273036/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:50:28 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:51:40 IST" duration-ms="71338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dealers.eichertrucksandbuses.com/eicher-company-operated-dealership-durgapur-truck-dealers-durgapur-durgapur-274224/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:51:40 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:55:01 IST" duration-ms="200993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.godrejinterio.com/godrej-interio-mahaveer-enterprises-home-furniture-shop-waidhan-waidhan-282485/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:55:01 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:55:23 IST" duration-ms="21938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nearme.bajajfinserv.in/gold-loan/bajaj-finserv-gold-loan-daman-airport-road-loan-agency-airport-road-daman-172879/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:55:23 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:56:00 IST" duration-ms="37455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://store.ozone-india.com/ozone-overseas-b-s-hardwares-hardware-shop-sector-38-gurugram-285069/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method signature="getFontFamily(java.lang.String)[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:56:00 IST" name="getFontFamily" data-provider="pr" finished-at="2023-09-12T13:56:15 IST" duration-ms="15189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://stores.inventstore.in/invent-apple-premium-reseller-mobile-phone-shop-lajpat-nagar-new-delhi-285155/Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFontFamily -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testclasses.GetFontTest@18d87d80]" started-at="2023-09-12T13:56:17 IST" name="quitBrowser" finished-at="2023-09-12T13:56:28 IST" duration-ms="10294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testclasses.GetFontTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
